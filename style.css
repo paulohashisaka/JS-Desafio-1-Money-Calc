@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+body {
+  background-color: #021749;
+  min-height: 100vh;
+  padding: 1px 0;
+}
+
+.logo {
+  width: 180px;
+  max-width: 50%;
+  display: block;
+  margin: 20px auto 40px;
+}
+
+main {
+  width: 90%;
+  max-width: 375px;
+  background-color: #F8FAFC;
+  border-radius: 20px;
+  margin: 0 auto 40px;
+  padding: 44px 24px 23px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+label {
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+select {
+  background-color: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  appearance: none;
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #555555;
+  cursor: pointer;
+}
+
+input {
+  background-color: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #555555;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
+
+
+button {
+  background-color: #179b6f;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 48px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+button:hover {
+  background-color: #059669;
+  opacity: 1;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+section {
+  border: 1.5px solid #6EE7B7;
+  border-radius: 20px;
+  margin-top: 36px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-img {
+  width: 24px;
+  margin: 12px 0;
+}
+
+.currency-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.currency {
+  font-weight: 400;
+  font-size: 14px;
+  color: #64748B;
+}
+
+.currency-value,
+.currency-value-to-convert {
+  font-weight: 700;
+  font-size: 20px;
+  color: #334155;
+}
+
+.currency-img,
+.changed-currency-img {
+  width: 44px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 140px;
+    margin: 24px auto 30px;
+  }
+
+  main {
+    width: 90%;
+    padding: 32px 18px 20px;
+    border-radius: 18px;
+  }
+
+  select,
+  input,
+  button {
+    height: 46px;
+    font-size: 15px;
+  }
+
+  section {
+    margin-top: 28px;
+    padding: 12px;
+  }
+
+  .currency-value,
+  .currency-value-to-convert {
+    font-size: 18px;
+  }
+
+  .currency-img,
+  .changed-currency-img {
+    width: 40px;
+  }
+
+  .arrow-img {
+    width: 22px;
+  }
+}
