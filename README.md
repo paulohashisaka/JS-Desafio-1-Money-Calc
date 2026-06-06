@@ -23,7 +23,7 @@ Money Calc is a currency converter built to practice JavaScript fundamentals, DO
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="./Money-Calc-Preview.png" alt="Money Calc Preview" width="350">
+  <img src="./assets/Money-Calc-Preview.png" alt="Money Calc Preview" width="350">
 </p>
 
 
